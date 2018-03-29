@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CouchbaseNetClient" Version="2.5.8" />
+    <PackageReference Include="Microsoft.Orleans.Core" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Orleans.Runtime.Abstractions">
+      <HintPath>C:\Users\mogha\.nuget\packages\microsoft.orleans.runtime.abstractions\2.0.0-rc2\lib\netstandard2.0\Orleans.Runtime.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
